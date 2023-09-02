@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 export default function LoginComp() {
   const navigate = useNavigate();
+  const errorContainer = document.querySelector('#error-message');
+
   const [msg, setMsg] = useState();
   const init = {
     Username: "",
@@ -41,11 +43,16 @@ export default function LoginComp() {
           if (obj.userTypeId === 1) {
             navigate("/clientpage");
           } else if (obj.userTypeId === 2) {
-            navigate("/business");
+            navigate("/business/2");
+          }
+          else if(obj.userTypeId==3)
+          {
+            navigate("/admin");
           }
         }
       })
-      .catch((error) => alert("server error. Try after some time"));
+     
+  
   };
 
   return (
