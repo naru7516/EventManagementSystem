@@ -16,6 +16,11 @@ import BServiceComp from './Components/BServiceComp';
 import BuyWindow from './Components/Buy';
 import Payments from './Components/Payement';
 import About from './Components/About';
+import Admin from './Components/Admin';
+import AdminClientsComp from './Components/AdminClients';
+import AdminBusinesssComp from './Components/AdminService';
+import AdminBusinessServiceComp from './Components/AdminBusinessService';
+import BusinessComp from './Components/BusinessComp';
 
 function App() {
   return (
@@ -35,9 +40,9 @@ function App() {
                 <li className="nav-item">
                   <Link to="/" className="nav-link px-3">Home</Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link to="/" className="nav-link px-3">Login</Link>
-                </li>
+                </li> */}
                
                 <li className="nav-item">
                   <Link to="/about" className="nav-link px-3">About</Link>
@@ -57,7 +62,7 @@ function App() {
         <Route path="/" element={<LoginComp/>}/>
 
         {/* <Route path="/" element={<Home/>}/> */}
-        <Route path="/business" element={<Business/>}/>
+        <Route path="/business" element={<BusinessComp/>}/>
         <Route path="/cregister" element={<ClientRegister/>}/>
         <Route path="/bregister" element={<BusinessRegister/>}/>
        <Route path="/clientpage" element={<ClientComp/>}/>
@@ -69,6 +74,11 @@ function App() {
        <Route path='/buy/:id' element={<BuyWindow/>}/>
         <Route path='/payments' element={<Payments/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/admin' element={<Admin/>}/>
+        <Route path='/clientss' element={<AdminClientsComp/>}/>
+        <Route path='/servicess' element={<AdminBusinesssComp/>}/>
+        <Route path='/allservices' element={<AdminBusinessServiceComp/>}/>
+
  </Routes>
 </div>
 
