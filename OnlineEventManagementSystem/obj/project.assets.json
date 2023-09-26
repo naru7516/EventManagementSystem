@@ -11390,26 +11390,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jives\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Naru\\Projects\\OnlineEventManagementSystem\\OnlineEventManagementSystem.csproj",
+      "projectUniqueName": "D:\\ProjectEvnt\\EventManagementSystem\\OnlineEventManagementSystem\\OnlineEventManagementSystem.csproj",
       "projectName": "OnlineEventManagementSystem",
-      "projectPath": "J:\\Naru\\Projects\\OnlineEventManagementSystem\\OnlineEventManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\jives\\.nuget\\packages\\",
-      "outputPath": "J:\\Naru\\Projects\\OnlineEventManagementSystem\\obj\\",
+      "projectPath": "D:\\ProjectEvnt\\EventManagementSystem\\OnlineEventManagementSystem\\OnlineEventManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\ProjectEvnt\\EventManagementSystem\\OnlineEventManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jives\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11480,7 +11480,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
